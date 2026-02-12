@@ -1,4 +1,7 @@
 Project Description
+
+
+
 The Criminal Management System is a web-based platform designed for law enforcement agencies to efficiently manage and track criminal activities. It features a dual-interface system:
 
 Public/Front-End Portal: A responsive landing page that provides an overview of the system, displays statistics (e.g., total criminals, active cases), and lists active officers.
