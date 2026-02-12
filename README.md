@@ -16,13 +16,20 @@ Crime Statistics: visual analytics of crime trends and activities.
 Technology Stack
 The project uses a monolithic architecture with server-side rendering.
 
-Backend Language: PHP
+Backend Language
+
+
+PHP
 Uses native/vanilla PHP (no major framework like Laravel/Symfony is currently visible).
 Utilizes PDO (PHP Data Objects) for secure database interactions.
 Database: MySQL
 The database name is criminal_management.
 Contains tables for users (officers), criminals, cases, arrests, etc.
-Frontend:
+
+
+Frontend
+
+
 HTML: Embedded directly within PHP files (Inline HTML).
 CSS:
 Inline CSS: Extensive styles defined within <style> blocks in PHP files.
@@ -31,14 +38,21 @@ Features: Includes CSS3 animations (keyframe animations for backgrounds), Flexbo
 JavaScript:
 Inline JavaScript: Scripts are written directly in <script> tags at the bottom of PHP files.
 Libraries: None (Vanilla JS used for DOM manipulation, IntersectionObserver for scroll animations, and form validation).
+
+
 External Assets:
+
+
 Font Awesome (via CDN): Used for UI icons throughout the application.
+
+
 Project Structure Snapshot
+
+
 criminal-management-front.php
 : The main public landing page.
 dashboard.php
 : The main control panel for logged-in users.
 database/: Contains the MySQL dump files (
-criminal_management.sql
-).
+criminal_management.sql).
 modules/: Likely contains specific feature logic (though I primarily analyzed the main entry points).
